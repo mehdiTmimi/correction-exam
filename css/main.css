@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+header nav{
+    padding-right:10% ;
+}
+header nav ul{
+    display: flex;
+}
+header nav li{
+    display: block;
+}
+main{
+    display: flex;
+    padding: 0px 10%;
+}
+/*
+left aside
+*/
+.left-aside{
+    width: 200px;
+}
+.header-left-aside{
+    display: flex;
+}
+.left-aside li{
+    display: block;
+}
+.news-feed{
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+}
+/*
+right aside
+*/
+.right-aside{
+    width: 350px;
+    margin-right: 10%;
+}
+.page-board>div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.page-board ul{
+    display: flex;
+    align-items: center;
+}
+.page-board li{
+    display: block;
+    flex: 1;
+}
+.page-board p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.langues{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.langues ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.langues li{
+    display: block;
+}
+
+footer ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer li {
+    display: block;
+  
+}
+/* 
+section
+*/
+main section{
+    flex:1;
+}
+.create-post{
+    display: flex;
+    align-items: center;
+}
+.create-post input{
+    flex: 1;
+}
+.btns-create-post{
+    display: flex;
+    align-items: center;
+}
+.btns-create-post li{
+    display: block;
+}
+
+.header-article{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header-article>div{
+    display: flex;
+    align-items: center;
+}
+.likes-number{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.likes-btns{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
