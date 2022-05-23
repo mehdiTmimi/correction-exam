@@ -3,11 +3,55 @@
     margin: 0px;
     text-decoration: none;
 }
+a{
+    color:inherit;
+}
+body{
+    background: #eaebed;
+}
 header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10%;
+    padding: 10px 10%;
+    background-color: #4167b2;
+    color:white;
+    font-size: 1em;
+}
+header>div{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+header input{
+ font-size: 1em;
+ margin-left: 5px;
+ width: 50%;
+ padding: 4px;
+}
+header>div::after{
+    content: '\f002';
+    font: normal normal normal 14px/1 FontAwesome;
+    color: #626976;
+    background: #f5f6f7;
+    align-self: stretch;
+    margin: 2px 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    position: relative;
+    left: -35px;
+}
+header button{
+    background: unset;
+    border: 0px;
+    display: flex;
+}
+.logo{
+    font-size: 2em!important;
+}
+header a {
+    color:inherit;
 }
 header nav{
     padding-right:10% ;
@@ -17,10 +61,15 @@ header nav ul{
 }
 header nav li{
     display: block;
+    padding: 10px 20px;
+    border-right: 1px solid hsl(220deg 47% 44%);
+}
+.last-item-list{
+    border-right: 0px;
 }
 main{
     display: flex;
-    padding: 0px 10%;
+    padding: 20px 10%;
 }
 /*
 left aside
@@ -46,18 +95,55 @@ right aside
     width: 350px;
     margin-right: 10%;
 }
+.page-board{
+    background: white;
+    color:#646a73;
+    padding: 20px;
+}
+
 .page-board>div{
 display: flex;
 justify-content: space-between;
 align-items: center;
+padding-bottom: 10px;
+border-bottom: 1px solid #e3e4e6;
 }
 .page-board ul{
     display: flex;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cfd2d6;
+    border-radius: 3px;
+}
+.page-board button{
+    background: unset;
+    border: 0px;
+}
+.page-board p{
+    font-weight: bold;
+}
+.page-board button i{
+    color: #646a73!important;
+}
+.page-board h3{
+    font-size: 0.9em;
 }
 .page-board li{
+    border-right: 1px solid #cfd2d6;
     display: block;
     flex: 1;
+    padding: 10px;
+    font-size: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-board li:nth-child(1){
+    background: #dedfe1;
+}
+.page-board li:nth-child(3){
+border-right: 0px;
 }
 .page-board p{
     display: flex;
@@ -91,6 +177,9 @@ section
 */
 main section{
     flex:1;
+}
+main article .post-img{
+    width: 100%;
 }
 .create-post{
     display: flex;
