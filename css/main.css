@@ -216,4 +216,15 @@ main article .post-img{
     align-items: center;
 }
 
+@media screen and (max-width:730px){
+    header{
+        flex-direction: column;
+    }
+    header>div{
+        width: 100%;
+    }
+    header input{
+        width: 90%;
+    }
+}
 
